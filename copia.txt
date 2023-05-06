@@ -1,0 +1,13 @@
+ var desencriptado = [];
+
+        desencriptado = revision_encriptar();
+        console.log(desencriptado + " desde el boton desencriptar");
+        var resultado = regresar_arreglo(desencriptado)
+        imprimir(resultado.join(''));
+
+    return resultado;
+
+
+var textoGuardado = document.getElementById("mensaje").value; document.getElementById("mensaje");
+    var mensaje = textoGuardado.replace(/[^\w\sáéíóúÁÉÍÓÚüÜñÑ]/gi).toLowerCase();'';
+    return mensaje;

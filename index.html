@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 1 Encriptador/Desencriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.jpg" alt="logo_alura"><p>Encriptador de Texto - Challenge 1 Alura</p>
+    </header>
+    <main>
+            <div class="contenedor">
+                <section class="ingresarTexto">
+                    <h1>Ingrese el texto aquí</h1>
+                    <textarea id="mensaje" placeholder="Ingrese el texto aquí"></textarea>
+                    <p>Solo letras minúsculas y sin acentos</p>
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                    <button class="guardar" onclick="copiarTexto()" >Copiar Texto</button>
+                </section>
+                <section class="resultado">
+                <h1>Resultado</h1>
+                <div id="texto-a-copiar"></div>
+                </section>
+            </div>
+        <script src="validador.js"></script>
+    </main>
+    <footer>
+        <p>Edwin Yesid Ortiz Merchan</p>
+        <p>Programa de pruebas de desencriptación de texto</p>
+        <p>Alura - One</p>
+        <img src="imagenes/logo_edwin.png" alt="logo_edwin" class="imagen-logo-personal">
+    </footer>
+</body>
+</html>
