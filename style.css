@@ -1,40 +1,50 @@
 body{
-    font-family: 'Bruno Ace', cursive;
-    min-width: 320px;
+    font-family: 'Bruno Ace';
     max-width: 960px;
     margin: 0 auto;
-
-    width: 100vw;
-    height: 100vh;
-    /* margin: 0;
-    padding: 0; */
 }
 
 header{
+    padding: 0 0 40px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 30px;
-    border: 1px solid black;
 } 
 
 header p{
     margin-left: auto;
 }
 .contenedor{
-    height: 550px;
+    height: auto;
     display: flex;
-    flex-direction: row;
+
 }
 
 .ingresarTexto{
     width: 65%;
-    border: 1px solid black;
+
+}
+
+#mensaje{
+    width: 100%;
+    height: 65%;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.botones{
+    padding: 25px 0 0 0;
+    width: 33,33%;
 }
 
 .ingresarTexto h1{
+    padding: 0 0 35px 0;
     font-weight: bold;
-    
+    text-align: center;
+    font-size: 25px;
 }
 
 .ingresarTexto p{
@@ -43,32 +53,40 @@ header p{
 }
 
 .resultado{
-    padding: 35px;
+
     font-weight: bold;
     width: 35%;
-    border: 1px solid black;
+
 }
 
+.resultado h1{
+    padding: 0 0 35px 0;
+    text-align: center;
+    font-size: 25px;
+}
 #texto-a-copiar{
     font-weight: bold;
-    border: 1px solid black;
+    border: 2px solid black; 
+    font-size: 18px;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
 }
 
 footer{
     padding: 3em 0;
-    border: 1px solid black;
+
     
 }
 
 footer p{
+    text-align: center;
     font-weight: bold;
 
 }
 .imagen-logo-personal{
-    width: 80px;
-
-    
-    padding: 20px;
-    
-    margin-left: 20px;
+    width: 8em;
+    padding: 0 0 0 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
