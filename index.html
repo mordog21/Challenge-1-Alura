@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Challenge 1 Encriptador/Desencriptador Desde Usuario Martin</title>
@@ -21,24 +23,26 @@
                     <h1>Ingrese el texto aquí</h1>
                     <textarea id="mensaje" placeholder="Ingrese el texto aquí"></textarea>
                     <p>Solo letras minúsculas y sin acentos</p>
-                    <div class="botones">
-                        <button id="encriptar">Encriptar</button>
-                        <button id="desencriptar">Desencriptar</button>
-                        <button class="guardar" onclick="copiarTexto()" >Copiar Texto</button>
+                    <div class="boton-contenedor">
+                        <button class="botones" id="encriptar">Encriptar</button>
+                        <button class="botones" id="desencriptar">Desencriptar</button>
                     </div>
                 </section>
                 <section class="resultado">
                 <h1>Resultado</h1>
                 <div id="texto-a-copiar"></div>
+                <div class="boton-contenedor">
+                    <button class="botones" onclick="copiarTexto()" >Copiar</button>
+                </div>
                 </section>
             </div>
         <script src="validador.js"></script>
     </main>
-    <!-- <footer>
+    <footer>
         <p>Edwin Yesid Ortiz Merchan</p>
         <p>Programa de Desencriptación de Texto</p>
         <p>Alura - One</p>
         <img src="imagenes/logo_edwin.png" alt="logo_edwin" class="imagen-logo-personal">
-    </footer> -->
+    </footer>
 </body>
 </html>

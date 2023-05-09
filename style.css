@@ -1,11 +1,16 @@
 body{
-    font-family: 'Bruno Ace';
+    background-image: url('imagenes/background-cj¿hallenge.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 960px;
     margin: 0 auto;
+    color: white;
 }
 
 header{
-    padding: 0 0 40px 0;
+    padding: 20px 0 40px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -27,17 +32,34 @@ header p{
 }
 
 #mensaje{
-    width: 100%;
-    height: 65%;
+    width: 600px;
+    height: 120px;
+    margin: 10px 10px 0 10px;
     font-weight: bold;
+    background: none;
+    color: white;
     border: 2px solid black;
     font-size: 18px;
     border-radius: 10px;
+    resize: none;
+}
+
+.boton-contenedor{
+width: 100%;
+display: flex;
+align-items: center;
 }
 
 .botones{
-    padding: 25px 0 0 0;
-    width: 33,33%;
+    width: 33%;
+    padding: 15px;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    background: #0071c5;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 
 .ingresarTexto h1{
@@ -68,8 +90,9 @@ header p{
     font-weight: bold;
     border: 2px solid black; 
     font-size: 18px;
-    width: 100%;
-    height: 70%;
+    margin: 10px 10px 0 10px;
+    width: 310px;
+    height: 120px;
     border-radius: 10px;
 }
 
